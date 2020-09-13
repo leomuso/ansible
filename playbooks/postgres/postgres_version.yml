@@ -12,5 +12,8 @@
         service:
           name: postgresql-12
           state: started
-          
+      - name: Zabbix agent is running
+        service:
+          name: zabbix-agent
+          state: started   
           
